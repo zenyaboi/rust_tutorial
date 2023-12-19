@@ -37,5 +37,21 @@ fn main() {
         .expect("Age wasn't assigned a number");
     age = age + 1;
     println!("I'm {} and I want ${}", age, ONE_MIL);
+    
+    // Unsigned integer: u8, u16, u32, u64, u128, usize
+    // Signed integer: i8, i16, i32, i64, i128, isize
+    println!("Max u32 : {}", u32::MAX);
+    println!("Max u64 : {}", u64::MAX);
+    println!("Max u128 : {}", u128::MAX);
+    println!("Max usize : {}", usize::MAX);
+    println!("Max i32 : {}", i32::MAX);
+    println!("Max i64 : {}", i64::MAX);
+    println!("Max i128 : {}", i128::MAX);
+    println!("Max isize : {}", isize::MAX);
+    println!("Max f32 : {}", f32::MAX);
+    
+    let is_true: bool = true;
+    let my_grade = 'A';
     */
+    
 }
